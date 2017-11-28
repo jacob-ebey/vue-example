@@ -63,8 +63,8 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: REPO_NAME
-      ? '/' + REPO_NAME + '/dist'
-      : '/dist',
+      ? '/' + REPO_NAME + '/dist/'
+      : '/dist/',
 
     /**
      * Source Maps
