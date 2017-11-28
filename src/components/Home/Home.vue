@@ -1,18 +1,15 @@
 <template>
   <div>
     <div v-if="!showRouter" class="hello">
-      <h1 class="center">Hi, I&apos;m Jacob</h1>
+      <h1 class="center">Hello, World</h1>
       <p>
-        I have a passion for the latest tech and delivering products
-        that have an impact on people&apos;s lives. I&apos;ve written code that
-        you may have used or helped build a product you&apos;ve bought.
+        This is a template to get you started hosting your vue blog on GitHub Pages.
       </p>
       <p>
-        Want to talk Architecture, IoT, Node, C#, Robotics, Quantum Algorighms or anything
-        else you think may spark my interest, don&apos;t be a stranger and drop me a line
-        at
-        <a href="mailto:jacob.ebey@live.com">jacob.ebey@live.com</a>
+        Fork it and give it a go! <a href="https://github.com/jacob-ebey/vue-example">https://github.com/jacob-ebey/vue-example</a>
       </p>
+
+      <p><router-link to="/blog/example-post">Routes work like a champ</router-link></p>
     </div>
     <router-view v-if="showRouter" />
   </div>
@@ -23,6 +20,7 @@ export default {
   name: 'Home',
   computed: {
     showRouter () {
+      console.log(this.$route)
       return this.$route.path !== '' && this.$route.path !== '/'
     }
   }

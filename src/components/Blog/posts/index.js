@@ -1,12 +1,12 @@
-const StaticVueSite = () => import('./StaticVueSite.vue')
+const ExamplePost = () => import('./ExamplePost.vue')
 
 const routes = [
   {
-    path: 'static-vue-github',
-    component: StaticVueSite,
-    name: 'Hosting a static Vue site on GitHub',
+    path: 'example-post',
+    component: ExamplePost,
+    name: 'Example Post',
     meta: {
-      description: 'A quick way to start hosting a static vue site using GitHub Pages.'
+      description: 'A hello world post to get you going.'
     }
   }
 ];

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex">
-      <router-link to="/" class="name">Jacob Ebey</router-link>
+      <router-link to="/" class="name">Blog Example</router-link>
       <div>
         <router-link to="/blog" class="item">Blog</router-link>
       </div>
