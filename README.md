@@ -1,6 +1,6 @@
 # vue-example
 
-A Vue.js project template meat to be hosted on Github Pages.
+A Vue.js project template meant to be hosted on GitHub Pages.
 
 Live Example: https://jacob-ebey.github.io/vue-example/
 
