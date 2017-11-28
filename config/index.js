@@ -4,7 +4,13 @@
 
 const path = require('path')
 
+// Update this to match your GitHub repository name. If you are using
+// the default (i.e username.github.io) you'll want to set this to undefined
+const REPO_NAME = 'vue-example'
+
 module.exports = {
+  repoName: REPO_NAME,
+
   dev: {
 
     // Paths
@@ -56,8 +62,14 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
+<<<<<<< HEAD
     // Update this to match your repo name
     assetsPublicPath: '/vue-example',
+=======
+    assetsPublicPath: REPO_NAME
+      ? '/' + REPO_NAME + '/dist'
+      : '/dist',
+>>>>>>> gh-pages
 
     /**
      * Source Maps
