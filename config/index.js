@@ -56,8 +56,8 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    // Update this to match your repo name
-    assetsPublicPath: '/vue-example',
+    // Update this to match your /[repo name]/dist
+    assetsPublicPath: '/vue-example/dist',
 
     /**
      * Source Maps
