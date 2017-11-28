@@ -29,7 +29,6 @@ export default {
     },
 
     matched () {
-      console.log(this.$route.matched)
       return this.$route.matched.length === 3 ? this.$route.matched[2] : undefined;
     }
   },
