@@ -62,14 +62,9 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-<<<<<<< HEAD
-    // Update this to match your repo name
-    assetsPublicPath: '/vue-example',
-=======
     assetsPublicPath: REPO_NAME
       ? '/' + REPO_NAME + '/dist'
       : '/dist',
->>>>>>> gh-pages
 
     /**
      * Source Maps
